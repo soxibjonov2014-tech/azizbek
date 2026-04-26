@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+  --color-natural-bg: #f5f5f0;
+  --color-natural-text: #4a523a;
+  --color-natural-accent: #8a9a5b;
+  --color-natural-muted: #d4d9ba;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+body {
+  background-color: #e5e7eb;
+  overflow: hidden;
+  color: var(--color-natural-text);
+}

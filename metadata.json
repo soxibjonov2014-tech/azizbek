@@ -1,0 +1,9 @@
+{
+  "name": "Samsung S26 Ultra Simulator",
+  "description": "A high-fidelity Samsung S26 Ultra experience with 40 interactive apps and games, built with One UI aesthetics.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": []
+}
